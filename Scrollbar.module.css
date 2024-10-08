@@ -1,0 +1,74 @@
+.scroll_dark {
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+    background: #181d27;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: 0px 1px 2px #41527d;
+    border-radius: 10px;
+    background: #181d27;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #245785;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-clip: content-box;
+    max-height: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #245785;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-clip: content-box;
+    max-height: 20px;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+.scroll_light {
+  overflow-y: auto;
+  height: 75vh;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+    background: #dfdfe4;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: 0px 2px 2px 0px #fff, 0px 1px 1px 0px rgba(172, 172, 192, 0.25) inset;
+    border-radius: 4px;
+    background: #dfdfe4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #777d8a;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-clip: content-box;
+    max-height: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #777d8a;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-clip: content-box;
+    max-height: 20px;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+}
